@@ -4,7 +4,7 @@ class Hero
   @@heroes = []
   
   def self.all 
-    @heroes
+    @@heroes
   end
   
   def self.clear 
