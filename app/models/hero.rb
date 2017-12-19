@@ -1,5 +1,5 @@
 class Hero
-  attr_accessor :name, :power, :bio 
+  attr_accessor :name, :power, :biography
   
   @@heroes = []
   
