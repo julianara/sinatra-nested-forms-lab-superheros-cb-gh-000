@@ -1,7 +1,7 @@
 <h1>Team Name:</h1> <%= @team.name %>
 <h2>Team Motto:</h2> <%= @team.motto %>
 
-<% @heroes.seach do |hero| %>
+<% @heroes.each do |hero| %>
 	<div class="hero">
 		<h2>Hero Name: <%= hero.name %></p><br>
 		<p>Hero Power: <%= hero.power %></p><br>
